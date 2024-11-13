@@ -1,0 +1,37 @@
+@charset  "UTF-8";
+
+/* セクション：ページ全体のCSS設定 */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* セクション：ヘッダーを整える */
+header {
+    width: 1000px;
+    background-color: #ffcccc;
+}
+
+/* セクション：メインとメニューを分け、それぞれ背景に色付けをする */
+
+#wrapper {
+    width: 1000px;
+    display: flex;
+}
+
+#main {
+    width: 700px;
+    background-color: #ccffcc;
+}
+
+#menu {
+    width: 300px;
+    background-color: #ccccff;
+}
+
+/* セクション：フッターを整える */
+footer {
+    width: 1000px;
+    background-color: #ffccff;
+    display: flex;
+}
